@@ -768,6 +768,12 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../json-framework/Classes/";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wno-sign-compare",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -790,6 +796,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../json-framework/Classes/";
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+					"-Wno-sign-compare",
+				);
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
