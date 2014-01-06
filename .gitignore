@@ -30,15 +30,30 @@ xcuserdata/
 *.xccheckout
 
 # Generated files
-*.o
+build/
+DerivedData/
+*.[oa]
 *.out
 *.log
+*.trace
+Doxygen/*
+Appledoc/*
+test-reports
+unit_test_results
+automation_results
+output/
+cpd-output.xml
+coverage.xml
+CoverageBuild
+CoverageTemp
+*.build
 Reports/*
 previous_build_number.txt
 
 # Backup files
 *~.nib
 *.swp
+*.bak
 
 # From GitHub's Ignore File for Xcode Projects
 # This matches too many valid files: profile
